@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(115deg, #3dc7a5 10%, #b8bd2c 90%);
+}
+.container{
+  position: absolute;
+  top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container{
+   
+background-color: #fff;
+width: 410px;
+padding: 30px;
+box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+.container .text{
+    
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.container form{
+    margin-top: -20px;
+}
+.container form .data{
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;
+
+}
+form .data label{
+    font-size: 18px;
+}
+form .data input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid #c0c0c0
+}
+form .data input:focus{
+    border-color: #c0c0c0;
+    border: 1px solid silver;
+}
+form .forgot-pass{
+    margin-top: -8px;
+}
+form .forgot-pass a{
+    color: #3dc7a5;
+    text-decoration: none;
+}
+form .btn{
+    margin: 10px 0;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+form .btn .inner{
+    height: 100%;
+    position: absolute;
+    width: 300%;
+    left: -100%;
+   z-index: -1;
+   transition: all 0.6s;
+    background: -webkit-linear-gradient(right,#FC9144, #4DF0C7,#FC9144, #b0b431);
+
+    
+}
+form .btn:hover .inner{
+left: 0;
+}
+form .btn button{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+for .signup-link{
+    text-align: center;
+}
+form .signup-link a{
+color: #3dc7a5;
+text-decoration:none;
+
+}
+form .singup-link a:hover{
+    text-decoration: underline;
+}
+
