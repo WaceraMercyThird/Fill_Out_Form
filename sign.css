@@ -1,0 +1,89 @@
+body{
+    height: 150vh;
+    width: 90%;
+    background: linear-gradient(115deg, #3dc7a5 10%, #b8bd2c 90%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signup-box{
+    width: 360px;
+    height: 550px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 35px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid #c0c0c0;
+    border-radius: 6px;
+    outline: none;
+}
+form #btn{
+    margin: 10px 0;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+form #btn .inner{
+    height: 100%;
+    position: absolute;
+    width: 300%;
+    margin-left: -100%;
+    z-index: -1;
+    /* transition: all 0.6s; */
+    background: -webkit-linear-gradient(right,#FC9144, #4DF0C7,#FC9144, #b0b431);
+
+    
+}
+/* form #btn:hover .inner{
+left:1 ;
+} */
+form #btn button{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: -webkit-linear-gradient(right,#FC9144, #4DF0C7);
+
+
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.para-2{
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    margin-top: -10px;
+
+}
+.para-2 a {
+    color: #49c1a2;
+}
